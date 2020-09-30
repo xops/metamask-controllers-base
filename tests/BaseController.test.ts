@@ -26,7 +26,9 @@ describe('BaseController', () => {
   });
 
   it('should set initial config empty', () => {
-    const controller = new TestController({});
+    const config: any = {};
+    config[undefined as any] = undefined; //eslint-disable-line
+    const controller = new TestController(config);
     expect(controller.config).toEqual({});
   });
 
