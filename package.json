@@ -1,5 +1,5 @@
 {
-  "name": "@xops/metamask-controllers-base",
+  "name": "@xops.net/metamask-controllers-base",
   "version": "0.0.0-development",
   "description": "Collection of platform-agnostic base controllers from @metamask/controllers.",
   "license": "MIT",
