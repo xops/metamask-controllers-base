@@ -6,7 +6,7 @@
   "files": [
     "build/"
   ],
-  "main": "./build/index.js",
+  "main": "./build/src/index.js",
   "publishConfig": {
     "access": "public"
   },
